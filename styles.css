@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+}
+header img {
+    height: 200px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+nav a:hover {
+    text-decoration:underline;
+}
+.banner {
+    background-image: url("Mangata-and-Gallo-logos/classic-cut-diamonds-black-background-3d-render_103577-6755.jpg");
+    height: 200px;
+    border-radius: 15px;
+    padding: 1rem;
+    color: white;
+    background-size: contain;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+strong {
+    font-size: 1.5rem;
+}
+.banner p {
+    margin-top: 2rem;
+
+}
+.contents {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin-top: 2rem;
+    margin-left: 4%;
+    margin-right: 4%;
+    gap: 10px;
+   
+}
+.contents img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.contents div {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+footer img {
+    width: 400px;
+    margin-left: 10px;
+}
+footer p {
+    margin-right: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px black;
+    margin-top: 2rem;
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#productsmain {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.packages {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 10px;
+}
+
+.packages img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.custom {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 10px;
+}
+.custom img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#about {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#contact {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact img {
+    height: 200px;
+}
